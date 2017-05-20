@@ -144,6 +144,20 @@
 		// pieChart();
 		skillsWayPoint();
 	});
-
+	
+	
+	$(document).ready(function () {
+                $(document).on('mouseenter', '#fh5co-resume', function () {
+                    $(this).find("#divbutton").show();
+                }).on('mouseleave', '#fh5co-resume', function () {
+                    $(this).find("#divbutton").hide();
+                });
+            });
+			
+			
+	$("#divbutton").click(function() {
+		window.location = $(this).find("a").attr("href"); 
+		return false;
+	});		
 
 }());

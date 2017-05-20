@@ -1057,42 +1057,28 @@ input[type="text"] {
   }
 }
 
-.show{
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 999;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;	
-}
-.show.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-.show a {
-  width: 50px;
-  height: 50px;
-  display: table;
-  background: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  text-align: center;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-.show a i {
-  height: 50px;
-  display: table-cell;
-  vertical-align: middle;
-}
-.show a:hover, .show a:active, .show a:focus {
-  text-decoration: none;
-  outline: none;
+#divbutton {
+	color: #FF9000;
+	height:50px;
+	background-color:#414141;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	font-family: "Space Mono", Arial, serif;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	padding: 8px 20px;
+	z-index:999;
+	float: right;
+	position:fixed;
+	top: 20px;
+	right: 20px;
 }
 
 .gototop {
